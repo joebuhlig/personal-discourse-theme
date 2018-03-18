@@ -1,0 +1,53 @@
+@import "theme_variables";
+
+.topic-list-item.visited a.title:not(.badge-notification), 
+.badge-wrapper.bullet span.badge-category{
+    color: $primary;
+}
+.topic-list .age a{
+    color: $primary !important;
+}
+ol.category-breadcrumb, #navigation-bar{
+    display:none;
+}
+.list-controls #create-topic{
+    float:left;
+    margin-left:0px;
+    background:$tertiary;
+}
+
+.d-header .title>a{
+    display:none;
+}
+
+.nav-link-container {
+  display: inline;
+  margin: 0px;
+}
+.nav-link-container  li { 
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+}
+.nav-link-container li:not(:first-child) {
+    margin-left: 30px;
+}
+.nav-link-container  a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+}
+
+.d-header .icons .icon {
+     float: right;
+}
+
+.add-header-links {
+    float: left;
+    padding-left: 0px;
+}
+
+.extra-info-wrapper .extra-info{
+    margin-left: 30px;
+}

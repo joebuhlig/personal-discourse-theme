@@ -1,0 +1,26 @@
+<script type="text/discourse-plugin" version="0.2">
+var iconHTML = require('discourse-common/lib/icon-library').iconHTML;
+var iconNode = require('discourse-common/lib/icon-library').iconNode
+api.decorateWidget('home-logo:after', helper => {
+    return helper.h('ul.nav-link-container', [
+        helper.h('li', [
+            helper.h('a.nav-link', {
+                href:'/'
+            },
+            iconNode('archive'))
+        ]),
+        helper.h('li', [
+            helper.h('a.nav-link', {
+                href:'/categories'
+            },
+            iconNode('th'))
+        ]),
+        helper.h('li', [
+            helper.h('a.nav-link', {
+                href:'/c/uncategorized'
+            },
+            iconNode('inbox'))
+        ])
+    ]);
+});
+</script>

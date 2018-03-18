@@ -1,0 +1,34 @@
+.topic-list{
+    .pull-left, .posts{
+        display:none;
+    }
+    .right{
+        margin-left:0px;
+    }
+    td .main-link{
+       width: 60%; 
+    }
+    .topic-item-stats {
+        display: inline-block;
+        width: 38%;
+        
+        .category{
+            float:left;
+        }
+    }
+}
+
+.mobile-view .topic-list-item .discourse-tags{
+    display:none;
+}
+
+tr.category-topic-link{
+    display:none;
+}
+.category-list-item>footer{
+    float:right;
+    margin-top:-40px;
+    .btn{
+        display:none;
+    }
+}
