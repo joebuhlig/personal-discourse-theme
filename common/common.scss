@@ -32,7 +32,7 @@ ol.category-breadcrumb, #navigation-bar{
 .nav-link-container li:not(:first-child) {
     margin-left: 30px;
 }
-.nav-link-container  a {
+.nav-link-container  a,.d-header .title .nav-link-container  a:visited {
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
