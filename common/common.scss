@@ -33,7 +33,7 @@ ol.category-breadcrumb, #navigation-bar{
     margin-left: 30px;
 }
 .nav-link-container  a,.d-header .title .nav-link-container  a:visited {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-decoration: none;
   text-align: center;
   font-size: 2em;
@@ -41,6 +41,13 @@ ol.category-breadcrumb, #navigation-bar{
 
 .d-header .icons .icon {
      float: right;
+}
+.d-header .btn-flat .d-icon{
+    opacity:1;
+    color:#ffffff;
+}
+.d-header .nav-link-container .d-icon{
+    color:#ffffff;
 }
 
 .add-header-links {
